@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Education</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<ul><h4>
+  <li><a href="background.html" target="Main Frame">Background</a></li>
+  <li><a href="education.html" target="Main Frame">Education</a></li>
+  <li><a href="myfamily.html" target="Main Frame">Family/Friends</a></li>
+  <li><a href="hometown.html" target="Main Frame">Hometown</a></li>
+  <li><a href="resume.html" target="Main Frame">Resume</a></li>
+  <li><a href="interest.html" target="Main Frame">Interest</a></li>
+  <li><a href="gallery.html" target="Main Frame">Gallery</a></li>
+</h4></ul>
+
+<div>
+  <center>
+    <h1 style="font-family:fantasy;"><b><i>WELCOME TO MY WORLD</i></b></h1>
+    <h2 style="margin-top: 50px; color:darkred; font-family:didot, serif;"><b><i>Hi I am Nurnajwa !</i></b></h2>
+  </center>
+
+  <img src="wawa.jpg" style="display:block; margin:auto; width:400px; height:300px; border-radius:50%;">
+
+  <center>
+    <h1 style="color:indigo; font-family:'brush script MT', cursive;">Informatic Library Student</h1>
+    <i><h2 style="font-family:Optima, sans-serif;">CONTACT</h2></i>
+
+
+    <form onsubmit="return validateForm()">
+      <label>Name:</label><br>
+      <input type="text" id="name" name="fname" required><br><br>
+
+      <label>Email:</label><br>
+      <input type="text" id="email" name="email" required><br><br>
+
+      <label>Comment:</label><br>
+      <textarea id="comment" name="comment" rows="5" cols="50"></textarea><br><br>
+
+      <input type="submit" value="Send">
+      <p id="errorMsg" class="error"></p>
+    </form>
+  </center>
+
+  <a href="interest.html" target="Main Frame">
+    <img src="next.jpg" style="float:right;width:90px;height:90px;border-radius:0%;">
+  </a>
+</div>
+<script src="form.js"></script>
+</body>
+</html>
+
