@@ -1,0 +1,54 @@
+body {
+  background-image: url('background01.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: mediumvioletred;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 18px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+div {
+  width: 1000px;
+  margin: auto;
+  min-height: 155vh;
+  padding: 40px;
+  border-radius: 10px;
+  background-color: beige;
+
+label {
+      display: block;
+      margin-top: 10px;
+    }
+
+    input, textarea {
+      width: 200px;
+      padding: 10px;
+      margin-top: 5px;
+    }
+
+    .error {
+      color: red;
+      margin-top: 5px;
+    }
