@@ -1,0 +1,30 @@
+body {
+  background-image: url('background01.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+table, th, td {
+  border: 5px solid black;
+  border-radius: 30px;
+}
+
+div {
+  width: 1000px;
+  margin: auto;
+  min-height: 100vh;
+  padding: 40px;
+  border-radius: 10px;
+  background-color: beige;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}

@@ -1,0 +1,20 @@
+body {
+  background-image: url('background01.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+
+th, td {
+  border-style: double;
+  padding: 15px;
+}
+
+div {
+  width: 1000px;
+  margin: auto;
+  min-height: 120vh;
+  padding: 40px;
+  border-radius: 10px;
+  background-color: beige;
+}
